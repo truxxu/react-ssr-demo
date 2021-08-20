@@ -25,12 +25,6 @@ export default function Home({ allPostsData }) {
           Finding ways to get more by doing less
         </p>
       </section>
-      <h1 className="title">
-        Read{' '}
-        <Link href="/posts/first-post">
-          <a>this first post</a>
-        </Link>
-      </h1>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
